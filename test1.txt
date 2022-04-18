@@ -1,0 +1,43 @@
+1. EDR : Endponit Detection & Response
+: Endpoint(보통 PC 를 일컬음)에서 악성코드를 탐지하여 대응 할 수 있도록 하는 솔루션
+: Detection 과 Response 가 주요 기능으로 방어 시스템은 아님
+: IDS 에서 IPS 로 넘어갔듯 시장의 요구에 따라 Protection 기능이 강화되고 있음
+
+2. EPP : Endponit Protection Platform
+: EDR 의 Protection 기능이 강화된 시스템
+: 보통 EPP 의 경우 백신이 함께 있어 백신에서의 Protection 기능을 강조하고 있음 (안랩의 EPP)
+: 실제 EDR 과 EPP 의 기능상 차이점은 Protection 기능밖에 없음 (파일 치료, 삭제 등)
+: zero trust 환경에서 Protection 은 한계가 있음
+
+3. AEP : Advanced Endpoint Protection
+: 최근 생겨난 용어로 EDR과 EPP 중간 쯤에 위치한다고 보면됨
+: APT 솔루션과 EDR+EPP 의 결합 정도로 이해하면 될 듯함
+
+4. CTI (Cyber Threat Intelligence), Threat Intelligence
+- 전 세계에서 일어나는 모든 위협 정보를 수집하고 분석한 다음 여기서 얻은 지식을 활용해 위협에 대응하는 것 (평판서비스도 포함이 될 수 있음)
+
+5. IR (Incident Response)
+- 사건대응, EDR, EPP, 포렌식 등이 IR 솔루션에 해당함
+
+6. EPS (EndPoint Security)
+- PC 단 에서의 보안을 통틀어 말함
+
+7. MSSP : Managed Security Service Provider
+- ISP 처럼 보안에 대해서 관리를 해 주는 서비스로 관제서비스로 이해해도 무관함
+
+8. CSP (Cloud Service Provider)
+- ISP 처럼 클라우드 서비스 제공자를 뜻함 (AWS, Azure 등)
+
+9. CASB (Cloud Access Security Broker)
+- Cloud 서비스 이용함에 있어 추가적인 보안을 위해 제공하는 서비스 또는 솔루션
+
+10. Reputation Services
+- 평판서비스로 바이러스 토탈과 같은 형태의 서비스를 제공함
+
+11. Mitre ATT&CK (마이터 어택)
+- 사이버범죄 사례정보, https://attack.mitre.org/ 내에 공격에 대한 사례정보가 있으며, 최근 해당 사례에 대한 방어 여부가 보안 솔루션의 평가 기준이 되고 있음 (홈페이지 참조)
+
+12. 기타
+EDR, EPP, AEP 모두 비슷한 역할을 수행한다고 할 수 있으며 그 경계가 살짝 모호함
+최근 MDR(Managed Detection & Response, 관제서비스와 비슷하며, Trendmicro, IBM 등에서 해당 서비스를 제공하고 있음 ),
+NDR(Network Detection & Response, 네트워크 트래픽에 대한 탐지-IPS 는 내부/외부 경계에 위치하지만 NDR 은 내부 내트워크 내의 모든 트랙픽을 모니터링함), CDR (Content Disarm and Reconstruction, 콘텐츠를 분해, 악성코드 제거 후 재 조합하여 무해화 시키는 역할) 등의 비슷한 용어가 있음
